@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="form">
+    <div class="header">
+      <h2>Criando a Conta</h2>
+      <p>Siga as etapas para criar a conta no meu site.</p>
+    </div>
+    <div class="body">
+      <div class="pagination">
+        <div class="number active">1</div>
+        <div class="bar"></div>
+        <div class="number">2</div>
+        <div class="bar"></div>
+        <div class="number">3</div>
+        <div class="bar"></div>
+        <div class="number">4</div>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <h4>Detalhes do Contato</h4>
+          <p>Criar uma conta é o processo de registro em um site ou serviço online para acessar seus recursos e benefícios.</p>
+          <div class="grid">
+            <div class="col">
+              <label for="name">Nome</label>
+              <input type="text" id="name">
+            </div>
+            <div class="col">
+              <label for="email">Email</label>
+              <input type="email" id="email">
+            </div>
+            <div class="col">
+              <label for="phone">Telefone</label>
+              <input type="tel" id="phone">
+            </div>
+            <div class="col">
+              <label for="company">Empresa</label>
+              <input type="text" id="company">
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <h4>Area de interesse</h4>
+          <p>Escolha a area de sua atuação</p>
+          <div class="grid">
+            <div class="col">
+              <div class="checkbox">
+                <input type="checkbox" id="intrest-finance">
+                <label for="intrest-finance">Financeiro</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="checkbox">
+                <input type="checkbox" id="intrest-maths">
+                <label for="intrest-maths">Administração</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="checkbox">
+                <input type="checkbox" id="intrest-programming">
+                <label for="intrest-programming">Programação</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="checkbox">
+                <input type="checkbox" id="intrest-music">
+                <label for="intrest-music">Desing</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <h4>Cadastre sua senha</h4>
+          <p>Lembresse de anotar suas credencias. </p>
+          <div class="grid">
+            <div class="col">
+              <label for="password">Password</label>
+              <input type="password" id="password">
+            </div>
+            <div class="col">
+              <label for="retype-password">Repita Password</label>
+              <input type="password" id="retype-password">
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="confirmation">
+            <h2>Conta Criada</h2>
+            <p>Sua conta foi criada com sucesso!!!</p>
+            <div>
+              <button id="btn-enviar">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <button class="prev" disabled>Voltar</button>
+      <button class="next">Proximo</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
